@@ -1,0 +1,7 @@
+You are required to create a console application that receives input from user and calculate their BMI.
+The system will display the BMI description.
+
+Requirements:
+1. The system requires to validate user input.
+2. The system requires to calculate and display the BMI correctly.
+3. The system will continue prompt for next input.
