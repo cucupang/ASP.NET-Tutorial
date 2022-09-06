@@ -1,0 +1,20 @@
+Using the same assignment in 2_BasicCSharp, design and implement the following:
+1) A Person object (Personal info example age, height, weight, BMI, blood type)
+2) A Student object (with student info)
+3) An Employee object (with employee info)
+4) An interface to calculate income for each type of object
+
+Change the console application to have a list of data of different kind of Persons and do the following:
+1) Calculate the average BMI for each group (Student and Employee)
+2) Calculate the average income for each group (Student and Employee)
+
+Example of list of data:
+Person[] persons = new Person[]
+{
+    new Student("Ali", 12, 45, 170),
+    new Employee("Bing", 22, 45, 170),
+          :
+          :
+          :
+          :
+};
