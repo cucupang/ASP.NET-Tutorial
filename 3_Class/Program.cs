@@ -14,7 +14,8 @@ namespace Class
             {
                 new Square(2),
                 new Triangle(5, 10),
-                new Circle(5)
+                new Circle(5),
+                new EqualateralTriangle(4, 3.464)
             };
 
             // Only can use functions from abstract class Shape.

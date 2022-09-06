@@ -34,7 +34,7 @@ namespace Class
             _width = width;
         }
 
-        public override double GetArea()
+        public sealed override double GetArea()
         {
             return (Height * Width) / 2;
         }
@@ -55,6 +55,26 @@ namespace Class
             stringBuilder.AppendLine($"Area: {GetArea()} cm2");
 
             return stringBuilder.ToString();
+        }
+
+        public virtual void Draw()
+        {
+            for (int h = 0; h < Height; h++)
+            {
+                if (Height <= 0)
+                {
+                    Console.WriteLine(new String('*', (int)Width));
+                }
+
+                else
+                {
+                    int width = (int)Width - 2 <= 0
+                        ? 1
+                        : (int)Width - 2;
+
+                    Console.WriteLine(new String('*', width));
+                }
+            }
         }
     }
 }
