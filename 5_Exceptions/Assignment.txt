@@ -1,0 +1,16 @@
+Unzip the file DebuggingPractice.zip.
+
+The content of the DebuggingPractice.zip
+========================================
+DebuggingPractice
+	- Properties
+		- AssemblyInfo.cs
+	- App.config
+	- DebuggingPractice.csproj
+	- DebuggingPractice.sln
+	- Program.cs
+
+Task
+====
+1. Open the DebuggingPractice.sln
+2. Follow the instructions inside the Program.cs
