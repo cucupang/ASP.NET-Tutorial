@@ -1,0 +1,2 @@
+Using the BMI assignment in 2_BasicCSharp, design a database to store the contact info and BMI value of the person using EntityFramework.
+Allow to perform CRUD operations on the records.
